@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppins",
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }
