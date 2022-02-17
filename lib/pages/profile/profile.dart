@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/pages/Home/components/bottom_bar.dart';
-import 'package:food_delivery_app/pages/Home/components/enum.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/pages/Home/components/bottom_bar.dart';
+import 'package:shop_app/pages/Home/components/enum.dart';
+import 'package:shop_app/pages/registration_screens/login_screen.dart';
+import 'package:shop_app/pages/registration_screens/signup_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({Key? key}) : super(key: key);
@@ -61,7 +63,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   title: 'Mua Voucher',
                 ),
                 ButtonCard(
-                  press: () {},
+                  press: () {
+                    // Navigator.push(context,
+                    //     MaterialPageRoute(builder: (context) => const LoginScreen()));
+                  },
                   title: 'Đăng xuất',
                 ),
               ],

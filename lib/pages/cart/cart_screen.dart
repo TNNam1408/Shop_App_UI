@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/model/food_model.dart';
-import 'package:food_delivery_app/pages/Home/components/bottom_bar.dart';
-import 'package:food_delivery_app/pages/Home/components/enum.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/model/shoe_model.dart';
+import 'package:shop_app/pages/Home/components/bottom_bar.dart';
+import 'package:shop_app/pages/Home/components/enum.dart';
 
 class CartScreen extends StatefulWidget {
   const CartScreen({Key? key}) : super(key: key);
@@ -107,7 +107,7 @@ class FavouriteCard extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "\$${product.price}",
+                          "${product.price}vnd",
                           style: const TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.bold,

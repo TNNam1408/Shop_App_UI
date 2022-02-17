@@ -1,9 +1,9 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/pages/Home/home_screen.dart';
-import 'package:food_delivery_app/pages/registration_screens/forgot_password.dart';
-import 'package:food_delivery_app/pages/registration_screens/signup_screen.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/pages/Home/home_screen.dart';
+import 'package:shop_app/pages/registration_screens/forgot_password.dart';
+import 'package:shop_app/pages/registration_screens/signup_screen.dart';
 
 import 'components/social_login_btn.dart';
 

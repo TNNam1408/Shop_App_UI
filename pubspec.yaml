@@ -1,4 +1,4 @@
-name: food_delivery_app
+name: shop_app
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   clip_shadow: ^0.2.1
   email_validator: ^2.0.1
-  flutter_svg: ^0.23.0+1
+  flutter_svg: ^1.0.3
 
 dev_dependencies:
   flutter_test:

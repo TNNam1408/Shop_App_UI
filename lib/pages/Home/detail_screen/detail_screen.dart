@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/model/food_model.dart';
-import 'package:food_delivery_app/pages/Home/components/bottom_bar.dart';
-import 'package:food_delivery_app/pages/Home/components/enum.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/model/shoe_model.dart';
+import 'package:shop_app/pages/Home/components/bottom_bar.dart';
+import 'package:shop_app/pages/Home/components/enum.dart';
 
 class DetailScreen extends StatefulWidget {
   final Product foodDetail;
@@ -49,8 +49,8 @@ class _DetailScreenState extends State<DetailScreen> {
               child: Column(
                 children: [
                   Text(widget.foodDetail.description,
-                      style: TextStyle(
-                        color: Colors.green[800],
+                      style: const TextStyle(
+                        color: kPrimaryColor,
                         fontSize: 15,
                       )),
                   const SizedBox(
@@ -59,7 +59,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   Row(
                     children: [
                       Text(
-                        "\$${widget.foodDetail.price}",
+                        "${widget.foodDetail.price}vnd",
                         style: const TextStyle(
                             color: kTextGrayColor,
                             fontSize: 18,

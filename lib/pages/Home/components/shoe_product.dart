@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/model/food_model.dart';
-import 'package:food_delivery_app/pages/Home/detail_screen/detail_screen.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/model/shoe_model.dart';
+import 'package:shop_app/pages/Home/detail_screen/detail_screen.dart';
 
-class FoodCard extends StatelessWidget {
-  const FoodCard({
+class ShoeCard extends StatelessWidget {
+  const ShoeCard({
     Key? key,
   }) : super(key: key);
 
@@ -55,9 +55,13 @@ class FoodProduct extends StatelessWidget {
             color: kSecondaryColor.withOpacity(0.3),
             borderRadius: BorderRadius.circular(15.0)),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.asset(product.image),
+            const SizedBox(
+              height: 20.0,
+            ),
             Text(
               product.title,
               style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),

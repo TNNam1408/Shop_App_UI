@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_delivery_app/constant.dart';
+import 'package:shop_app/constant.dart';
 
 class SocialLoginBtn extends StatefulWidget {
   const SocialLoginBtn({Key? key}) : super(key: key);

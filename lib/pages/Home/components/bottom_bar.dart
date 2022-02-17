@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/pages/Home/home_screen.dart';
-import 'package:food_delivery_app/pages/cart/cart_screen.dart';
-import 'package:food_delivery_app/pages/favourite/favourite_screen.dart';
-import 'package:food_delivery_app/pages/profile/profile.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/pages/Home/home_screen.dart';
+import 'package:shop_app/pages/cart/cart_screen.dart';
+import 'package:shop_app/pages/favourite/favourite_screen.dart';
+import 'package:shop_app/pages/profile/profile.dart';
 
 import 'enum.dart';
 
@@ -42,7 +42,7 @@ class CustomBottomBar extends StatelessWidget {
             icon: Icon(
               Icons.home_outlined,
               color: MenuState.home == selectMenu
-                  ? Color(0xff09b44d)
+                  ? Color(0xff0978b4)
                   : Colors.grey,
               size: 30,
             ),
@@ -57,7 +57,7 @@ class CustomBottomBar extends StatelessWidget {
             icon: Icon(
               Icons.favorite_outline,
               color: MenuState.favourite == selectMenu
-                  ? Color(0xff09b44d)
+                  ? Color(0xff0978b4)
                   : Colors.grey,
               size: 30,
             ),
@@ -71,7 +71,7 @@ class CustomBottomBar extends StatelessWidget {
             icon: Icon(
               Icons.shopping_cart_outlined,
               color: MenuState.cart == selectMenu
-                  ? Color(0xff09b44d)
+                  ? Color(0xff0978b4)
                   : Colors.grey,
               size: 30,
             ),
@@ -86,7 +86,7 @@ class CustomBottomBar extends StatelessWidget {
             icon: Icon(
               Icons.person_outline,
               color: MenuState.profile == selectMenu
-                  ? Color(0xff09b44d)
+                  ? Color(0xff0978b4)
                   : Colors.grey,
               size: 30,
             ),

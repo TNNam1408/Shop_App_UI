@@ -1,7 +1,7 @@
 import 'package:clip_shadow/clip_shadow.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/pages/registration_screens/login_screen.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/pages/registration_screens/login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

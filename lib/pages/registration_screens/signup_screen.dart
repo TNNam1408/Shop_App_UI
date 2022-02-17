@@ -1,7 +1,7 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/constant.dart';
-import 'package:food_delivery_app/pages/registration_screens/components/social_login_btn.dart';
+import 'package:shop_app/constant.dart';
+import 'package:shop_app/pages/registration_screens/components/social_login_btn.dart';
 
 import 'login_screen.dart';
 
@@ -275,7 +275,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         ),
                       ],
                     ),
-                    Spacer(),
                   ],
                 ),
               ),
